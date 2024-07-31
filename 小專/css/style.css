@@ -1,0 +1,767 @@
+/* header 的style */
+
+
+header {
+  background-color: rgba(255, 173, 22, 0.882);
+  height: 100px;
+  
+}
+
+h1 {
+  width: 20%;
+  margin: 0px;
+  margin-left: 5%;
+  margin-right: 11%;
+  margin-top: 30px;
+  font-family: "Pacifico";
+  /* background-color: blue; */
+  float: left;
+  font-size: 40px;
+}
+
+h1>a {
+  color: rgb(255, 247, 247);
+  text-decoration: none;
+
+}
+
+h1 a:hover {
+  /* background-color:rgba(196, 148, 59, 0.679); */
+  color: rgb(255, 247, 247);
+  font-size: 45px;
+}
+
+h1>a>img {
+  width: 33px;
+  margin-bottom: 11px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+nav {
+  width: 35%;
+  /* background-color: green; */
+  float: right;
+  margin-right: 70px;
+}
+
+nav>ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+nav>ul>li {
+  width: 25%;
+  /* background-color: greenyellow; */
+  float: left;
+}
+
+nav>ul>li>a {
+  display: block;
+  /*顯示為塊級元素*/
+  /* background-color: red; */
+  width: 100%;
+  text-align: center;
+  /*文字置中*/
+  line-height: 56px;
+  /*行距*/
+  text-decoration: none;
+  /*文字裝飾:無*/
+  color: rgb(255, 247, 247);
+  letter-spacing: 1px;
+  /*字距*/
+  font-size: 25px;
+  margin-top: 20px;
+  padding: auto;
+}
+
+nav>ul>li>a:hover {
+  background-color: rgba(196, 148, 59, 0.679);
+  color: rgb(255, 247, 247);
+  font-size: 30px;
+}
+
+
+h2>img {
+  width: 100%;
+
+}
+
+
+
+
+
+/* body {
+  margin: 0;
+  height: 2000px;
+} */
+
+.icon-bar {
+  position: fixed;
+  top: 15%;
+  /* -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); */
+}
+
+.icon-bar a {
+  display: block;
+  text-align:center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 25px;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-bar a:hover {
+  font-size: 29px;
+}
+
+
+.home {
+  background: #090909;
+  color: white;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+
+.facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+
+.instagram {
+  background-image: linear-gradient(to top, rgb(163, 14, 245), rgb(254, 7, 186), rgb(254, 2, 93), rgb(254, 137, 9), rgb(255, 197, 0));
+  color: white;
+  border-radius: 50%;
+}
+
+
+
+
+.youtube {
+  background: #bb0000;
+  color: white;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+.social-icon>a {
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+
+
+/* ==========首頁內文的style=========== */
+
+.rule-img{
+  width: 25px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+
+
+
+/* ===========m========== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================footer================ */
+
+
+
+footer {
+  padding: 50px 30px;
+  background-color: rgb(255, 182, 45);
+  background-image:url(../image/top10.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+}
+
+/*
+#menu-footer {
+  padding: 50px 30px;
+  background-color: rgb(255, 182, 45);
+  background-image:url(../image/top10.jpg) ;
+  background-repeat: no-repeat;
+  margin:0px;
+}
+
+#member-footer {
+  padding: 50px 30px;
+  background-color: rgb(255, 182, 45);
+  background-image:url(../image/top10.jpg) ;
+  background-repeat: no-repeat;
+  margin:0px;
+}
+*/
+
+footer * {
+  color: white;
+}
+
+.footer-logo {
+  text-align: center;
+  /*行內元素置中，可在父層設定text-align:cener*/
+  font-size: 30px;
+  font-family: "Pacifico";
+  text-decoration: none;
+  margin: auto;
+}
+
+
+.footer-line{
+  width: 70%;
+  border-top: 2px dashed rgb(255, 255, 255) ;
+  margin: auto;
+}
+
+
+footer>ul {
+  padding: 0px;
+  
+  list-style-type: none;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+footer>ul>li {
+  float: left;
+  width: 25%;
+  line-height: 40px;
+}
+
+footer>ul>li>a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  background-color:rgba(196, 148, 59, 0.679); /* 懸停時的背景顏色 */
+  color: white; /* 懸停時的文字顏色 */
+}
+
+
+
+
+
+
+
+
+
+/*===== manu的style ======*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: #f1f1f1; 
+  padding: 20px;
+  
+} */
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h5 {
+  font-size: 50px;
+  word-break: break-all;
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.707);
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row>.column {
+  padding: 8px;
+
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none;
+  /* Hide all elements by default */
+  text-align: center;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+
+/*===hug的style===*/
+
+
+
+div.gallery {
+  /* border: 1px solid #ccc; */
+  background-color: rgba(182,154,103,0.78);
+  color: rgb(255, 247, 247);
+  border-radius: 10%;
+
+}
+
+/* div.gallery:hover {
+  
+  
+} */
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+}
+
+div.desc {
+  padding: 0px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  margin-bottom: 50px;
+}
+
+#myBtn{
+  background-color:#ffffff78;
+  color: aliceblue;
+  border: white;
+}
+
+
+#myBtn02{
+  background-color:#ffffff78;
+  color: aliceblue;
+  border: white;
+}
+
+#myBtn03{
+  background-color:#ffffff78;
+  color: aliceblue;
+  border: white;
+}
+
+
+#myBtn04{
+  background-color:#ffffff78;
+  color: aliceblue;
+  border: white;
+}
+
+#myBtn05{
+  margin:5% 45% ;
+  background-color:#cecececf;
+  color: aliceblue;
+  border: white;
+  width: 140px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+
+#myBtn06{
+  border: none;
+  background-color:rgb(249, 175, 36);
+  color: #f1f1f1;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+#myBtn06:hover {
+  background-color: rgb(255, 197, 88);
+  color: #f2f2f2;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+#more {
+  display: none;
+}
+
+#more02 {
+  display: none;
+}
+
+#more03 {
+  display: none;
+}
+
+#more04 {
+  display: none;
+}
+
+
+#more05 {
+  display: none;
+}
+
+#div_B {
+  width: 312px;
+  height: 312px;
+  /* background-color: red; */
+  animation-name: cat01;
+  animation-duration:20s;
+  animation-iteration-count: infinite;
+  border-radius: 10% 10% 0% 0%;
+}
+
+#div_C {
+  width: 312px;
+  height: 312px;
+  /* background-color: red; */
+  animation-name: cat02;
+  animation-duration:30s;
+  animation-iteration-count: infinite;
+  border-radius: 10% 10% 0% 0%;
+}
+
+#div_D {
+  width: 312px;
+  height: 312px;
+  /* background-color: red; */
+  animation-name: cat03;
+  animation-duration:40s;
+  animation-iteration-count: infinite;
+  border-radius: 10% 10% 0% 0%;
+}
+
+
+#div_E {
+  width: 312px;
+  height: 312px;
+  /* background-color: red; */
+  animation-name: cat04;
+  animation-duration:50s;
+  animation-iteration-count: infinite;
+  border-radius: 10% 10% 0% 0%;
+}
+
+.article-expanded {
+  background-color:#d8d8d8c7; /* 擴展後的文章背景顏色 */
+  padding: 10px; /* 可以添加其他樣式 */
+}
+
+
+/*red->blue->yellow->green->red動畫變化階段比較多的時候，可以用百分比去表示(可以寫不只一個樣式)*/
+@keyframes cat01 {
+  0% {
+      background-image: url(../image/hug09-1.jpg);
+  }
+
+  25% {
+      background-image: url(../image/hug09-2.JPG);
+  }
+
+  50% {
+      background-image: url(../image/hug09-3.JPG);
+  }
+
+  75% {
+      background-image: url(../image/hug09-4.JPG);
+  }
+
+  100% {
+      background-image: url(../image/hug09-1.jpg);
+  }
+}
+
+
+
+
+@keyframes cat02 {
+  0% {
+      background-image: url(../image/hug10-1.JPG);
+  }
+
+  25% {
+      background-image: url(../image/hug10-2.JPG);
+  }
+
+  50% {
+      background-image: url(../image/hug10-3.JPG);
+  }
+
+  75% {
+      background-image: url(../image/hug10-4.JPG);
+  }
+
+  100% {
+      background-image: url(../image/hug10-1.JPG);
+  }
+}
+
+
+@keyframes cat03 {
+  0% {
+      background-image: url(../image/hug11-1.JPG);
+  }
+
+  25% {
+      background-image: url(../image/hug11-2.JPG);
+  }
+
+  50% {
+      background-image: url(../image/hug11-3.JPG);
+  }
+
+  75% {
+      background-image: url(../image/hug11-4.JPG);
+  }
+
+  100% {
+      background-image: url(../image/hug11-1.jpg);
+  }
+}
+
+
+@keyframes cat04 {
+  0% {
+      background-image: url(../image/hug12-1.JPG);
+  }
+
+  25% {
+      background-image: url(../image/hug12-2.JPG);
+  }
+
+  50% {
+      background-image: url(../image/hug12-3.JPG);
+  }
+
+  75% {
+      background-image: url(../image/hug12-4.JPG);
+  }
+
+  100% {
+      background-image: url(../image/hug12-1.JPG);
+  }
+}
+
+
+
+
+
+
+
+
+
+/*=======表格的style======*/
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(255, 185, 54);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(255, 171, 14);
+}
+
+div.f-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 357px;
+}
+
+/*======member的style=========*/
+
+
+
+h3{
+  text-align: center;
+  width: 850px;
+  margin:0px 217px;
+  border-radius: 10%; 
+  background-color:rgba(54,51,41,0.82);
+  color: rgb(251, 242, 242);
+}
+
+
+
+
+* {box-sizing: border-box}
+/* body {font-family: "Lato", sans-serif;} */
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color:rgba(252, 244, 217, 0.989);;
+  width: 30%;
+  height: 300px;
+  
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color:rgba(215, 191, 103, 0.816);
+  color: white;
+}
+
+/* Create an active/current "tab button" class */
+/*.tab button.active {
+   background-color: #ccc; 
+}*/
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  /* border: 1px solid #ccc; */
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  /* margin-top: -100px; */
+}

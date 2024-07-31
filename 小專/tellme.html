@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body
+    style="padding: 20%;font-family: Arial;background-image: url(./image/top9.jpg);background-position:50% 0% ;background-repeat:no-repeat;background-size: cover;">
+
+    <header class="fixed-top">
+        <h1><a href="./index.html"><img src="./image/paw02.png">貓啡定律<img src="./image/paw02.png"></a></h1>
+
+
+
+        <nav>
+            <ul class="clearfix">
+                <li><a href="./member.html">成員介紹</a></li>
+                <li><a href="./menu.html">菜單</a></li>
+                <li><a href="./hug.html">抱毛回窩</a></li>
+                <li><a href="./tellme.html">領養表單</a></li>
+            </ul>
+        </nav>
+        <div class="icon-bar">
+            <a href="./index.html" class="home"><i class="fa-solid fa-house"></i></a>
+            <a href="https://www.youtube.com/" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+    </header>
+
+
+    <div style="margin-top: -28%;">
+
+        <div class="fw-bold" style="text-align: center;background-color: rgba(255, 255, 255, 0.471);">
+            <h5>認養前問卷調查表</h5>
+            <p style="font-size:18px;">每隻貓貓都是一條重要的小生命，如果你/妳想要和牠成為家人，請幫我們填寫以下問卷讓我們能更加地了解你/妳唷</p>
+        </div>
+        <form id="myForm" onsubmit="return validateForm()">
+            <div class="f-container">
+
+                <!-- 姓名 -->
+                <label for="fname">姓名 *<br>(請填寫本名)</label>
+                <input type="text" id="fname" name="firstname" placeholder="請完整填寫 : 姓氏 + 名字">
+
+                <!-- 性別 -->
+                <label for="fsex">性別 *</label>
+                <select id="fsex" name="fsex">
+                    <option value="man">男性</option>
+                    <option value="woman">女性</option>
+                    <option value="other">其他</option>
+                </select>
+
+                <!-- 年齡 -->
+                <label for="fage">
+                    年齡 *
+                </label>
+                <input type="text" id="fage" name="fage" placeholder="請填 “阿拉伯數字” ">
+
+                <!-- 連絡電話 -->
+                <label for="ftel">
+                    連絡電話 *
+                </label>
+                <input type="text" id="ftel" name="ftel" placeholder="09 - # # # - # # # # ">
+
+                <!-- 住址 -->
+                <label for="faddress">
+                    住址 *
+                </label>
+                <input type="text" id="faddress" name="faddress" placeholder="請填寫 : 縣市 + 區 + 路名 ">
+
+
+                <!-- 送出鍵 -->
+                <input type="submit" value="送出申請">
+                <br><br>
+                <p style="text-align: center;">送出申請表單後，麻煩至FB或IG粉專通知我們一聲，好後續聯絡您安排時間見面唷~</p>
+
+            </div>
+        </form>
+    </div>
+
+
+    <script>
+        function validateForm() {
+            var fname = document.getElementById("fname").value;
+            var fsex = document.getElementById("fsex").value;
+            var fage = document.getElementById("fage").value;
+            var ftel = document.getElementById("ftel").value;
+            var faddress = document.getElementById("faddress").value;
+
+            if (fname == "" || fsex == "" || fage == "" || ftel == "" || faddress == "") {
+                alert("請填寫所有必填欄位(*)");
+                return false;
+            }
+            
+
+            return true;
+        }
+    </script>
+
+
+
+</body>
+
+</html>

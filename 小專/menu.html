@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body
+    style="background-image: url(./image/top5.jpg);background-position: center;background-repeat: no-repeat; background-size:cover;">
+    <header class="fixed-top">
+        <h1><a href="./index.html"><img src="./image/paw02.png">貓啡定律<img src="./image/paw02.png"></a></h1>
+
+
+
+        <nav>
+            <ul class="clearfix">
+                <li><a href="./member.html">成員介紹</a></li>
+                <li><a href="./menu.html">菜單</a></li>
+                <li><a href="./hug.html">抱毛回窩</a></li>
+                <li><a href="./tellme.html">領養表單</a></li>
+            </ul>
+        </nav>
+        <div class="icon-bar">
+            <a href="./index.html" class="home"><i class="fa-solid fa-house"></i></a>
+            <a href="https://www.youtube.com/" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+    </header>
+
+    
+    <div class="main">
+
+        <h5 style="text-align: center;">MENU</h5>
+        
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> 全部</button>
+            <button class="btn" onclick="filterSelection('food')">主食</button>
+            <button class="btn" onclick="filterSelection('dessert')">甜點</button>
+            <button class="btn" onclick="filterSelection('drink')">飲品</button>
+        </div>
+
+
+        <div class="row">
+            <div class="column food">
+                <div class="content">
+                    <img src="./image/food3.jpg" style="width:100%;border-radius: 10%;">
+                    <div style="background-color: antiquewhite;margin-top: 20px;">
+                        <h4>爆漿起司牛肉三明治</h4>
+                        <p>不來點罪惡的嗎?(蛋可換全熟)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column food">
+                <div class="content">
+                    <img src="./image/food2.jpg" style="width:100%;border-radius: 10%;">
+                    <div style="background-color: antiquewhite;margin-top: 20px;">
+                        <h4>西班牙海鮮燉飯</h4>
+                        <p>蝦殼都幫你剝好了</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column food">
+                <div class="content">
+                    <img src="./image/food1.jpg" style="width:100%;border-radius: 10%;">
+                    <div style="background-color: antiquewhite;margin-top: 20px;">
+                        <h4>蘑菇千層麵</h4>
+                        <p>好吃不膩喔</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column dessert">
+                <div class="content">
+                    <img src="./image/dessert.jpg" style="width:100%;border-radius: 10%;">
+                    <div style="background-color: antiquewhite;">
+                        <h4>舒芙蕾</h4>
+                        <p>呼哇呼哇(日文)的唷</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column dessert">
+                <div class="content">
+                    <img src="./image/dessert2.jpg" ] style="width:100%;border-radius: 10%;">
+                    <div style="background-color: antiquewhite;">
+                        <h4>法式草莓千層酥</h4>
+                        <p>小心超會掉屑屑</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column dessert">
+                <div class="content">
+                    <img src="./image/dessert3.jpg" style="width:100%;border-radius: 10%;">
+                    <div style="background-color: antiquewhite;">
+                        <h4>宇治抹茶戚風蛋糕</h4>
+                        <p>苦甜苦甜好好吃</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column drink">
+                <div class="content">
+                    <img src="./image/drink1.jpg" style="width:100%;border-radius: 10%;">
+                    <div style="background-color: antiquewhite;">
+                        <h4>拿鐵</h4>
+                        <p>咖啡嘎牛奶，好喝</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column drink">
+                <div class="content">
+                    <img src="./image/drink2.jpg" style="width:100%;border-radius: 10%;">
+                    <div style="background-color: antiquewhite;">
+                        <h4>美式</h4>
+                        <p>手沖風味精品咖啡豆，讚讚</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column drink">
+                <div class="content">
+                    <img src="./image/drink3.jpg" style="width:100%;border-radius: 10%;">
+                    <div style="background-color: antiquewhite;">
+                        <h4>宇治抹茶拿鐵</h4>
+                        <p>靜置一段時間記得攪一攪再喝~</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <br><br><br><br><br>
+    <footer>
+
+        <div class="footer-logo">貓啡定律</div>
+        <ul class="clearfix">
+            <li><a href="./hug.html">抱毛回窩</a></li>
+            <li><a href="./menu.html">菜單</a></li>
+            <li><a href="./member.html">成員介紹</a></li>
+            <li><a href="./tellme.html">領養表單</a></li>
+
+        </ul>
+        <br>
+        <div class="footer-line"></div>
+        <br>
+        <p class="text-center" style="margin: auto;"><a href="#" class="btn"
+                style="margin: 10px;">線上訂位</a><span>和貓主子一起的空間享用美食</span></p>
+
+        <div class="copyright text-center" style="margin: auto;">copryright &copy; 此網站為練習使用，不做商業用途</div>
+    </footer>
+
+
+    <script>
+        filterSelection("all")
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("column");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+            }
+        }
+
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+
+</body>
+
+</html>

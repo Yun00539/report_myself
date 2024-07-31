@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+
+<body style="background-image: url(./image/top8.jpg);">
+    <header class="fixed-top">
+        <h1><a href="./index.html"><img src="./image/paw02.png">貓啡定律<img src="./image/paw02.png"></a></h1>
+
+
+
+        <nav>
+            <ul class="clearfix">
+                <li><a href="./member.html">成員介紹</a></li>
+                <li><a href="./menu.html">菜單</a></li>
+                <li><a href="./hug.html">抱毛回窩</a></li>
+                <li><a href="./tellme.html">領養表單</a></li>
+            </ul>
+        </nav>
+        <div class="icon-bar">
+            <a href="./index.html" class="home"><i class="fa-solid fa-house"></i></a>
+            <a href="https://www.youtube.com/" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+    </header>
+
+    <div class="container fw-bold" style=" margin-top: 120px;border-radius: 6%;color:rgb(251, 242, 242); ;">
+        <h3>
+            <p class="fw-bold" style="font-size: 30px;"><br>✧◝(⁰▿⁰)◜✧ 本店優質喵員工 ✧◝(⁰▿⁰)◜✧
+                <hr>
+            </p>
+            <p style="font-size: 20px;">隨心走走，偶而會想偷喝客人的水，請小心 !<br><br>
+                但平常還是貼心撒嬌的啦~可以在二樓窗邊小窩、樓梯間、吧檯、紙箱找看看我們喔~<br><br></p>
+        </h3>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openMember(event, 'membercat01')" id="defaultOpen">店長</button>
+            <button class="tablinks" onclick="openMember(event, 'membercat02')">副店長</button>
+            <button class="tablinks" onclick="openMember(event, 'membercat03')">經理</button>
+            <button class="tablinks" onclick="openMember(event, 'membercat04')">罐罐試吃員</button>
+        </div>
+
+        <div id="membercat01" class="tabcontent">
+            <h4 style="background-color: rgba(191, 172, 104, 0.89);">
+                <p style="font-size: 50px;text-align: center;background-color: rgba(255, 255, 255, 0.38);">店長</p>
+                <p style="text-align: center;">王子</p>
+                <img src="./image/crown.png"
+                    style=" transform: rotate(-52deg); position: relative;top:-177px;left: 154px;width: 100px;">
+                <img src="./image/member05.jpg" class="animate__animated animate__bounceInRight "
+                    style="border-radius: 50%;position: relative;left: 85px;top: 5px;">
+
+                <p style="text-align: center;margin-top: 10px;font-size: 20px;">
+                    感覺取名字真的很重要!<br><br>
+                    取名叫王子的王子，<br><br>
+                    隨著年紀漸長，<br><br>
+                    身上的皇家氣息漸重<br><br>
+                    帥氣又有威嚴氣勢!<br><br></p>
+            </h4>
+        </div>
+
+        <div id="membercat02" class="tabcontent">
+            <h4 style="background-color: rgba(191, 172, 104, 0.89);">
+                <p style="font-size: 50px;text-align: center;background-color: rgba(255, 255, 255, 0.38);">副店長</p>
+                <p style="text-align: center;">六六</p>
+                <img src="./image/member08.jpg" class="animate__animated animate__bounceInRight"
+                    style="border-radius: 50%;position: relative;left: 185px;top: 5px;">
+                <p style="text-align: center;margin-top: 10px;font-size: 20px;">六六是很有自己想法的貓，<br><br>
+                    喜歡小姐姐喜歡拍屁屁~<br><br>
+                    吃飯的時候也最愛被大家關注！<br><br>
+                </p>
+            </h4>
+        </div>
+
+        <div id="membercat03" class="tabcontent">
+            <h4 style="background-color: rgba(191, 172, 104, 0.89);">
+                <p style="font-size: 50px;text-align: center;background-color: rgba(255, 255, 255, 0.38);">經理</p>
+                <p style="text-align: center;">瑞布</p>
+                <img src="./image/member07.jpg" class="animate__animated animate__bounceInRight"
+                    style="border-radius: 50%;position: relative;left: 185px;top: 5px;">
+                <p style="text-align: center;margin-top: 10px;font-size: 20px;">一臉冰雪聰明的瑞布<br><br>
+                    一下子就學會“坐下”！<br><br>
+                    有顏值又有聰慧的貓咪~<br><br>
+                </p>
+            </h4>
+        </div>
+
+        <div id="membercat04" class="tabcontent">
+            <h4 style="background-color: rgba(191, 172, 104, 0.89);">
+                <p style="font-size: 50px;text-align: center;background-color: rgba(255, 255, 255, 0.38);">罐罐試吃員</p>
+                <p style="text-align: center;">白龍</p>
+                <img src="./image/member09.jpg" class="animate__animated animate__bounceInRight "
+                    style="border-radius: 50%;position: relative;left: 185px;top: 5px;">
+                <p style="text-align: center;margin-top: 10px;font-size: 20px;">白龍個性很呆又貪吃<br><br>
+                    明明應該是帥哥<br><br>
+                    卻是搞笑男<br><br>
+                    總是很愛搶大家的貓飯吃一口！<br><br>
+                    白龍明明喜歡跟大家一起玩，感情也很好<br><br>
+                    但是吃飯時間就是會惹貓咪生氣<br><br>
+                    該拿白龍怎麼辦呢？<br><br>
+                </p>
+            </h4>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+
+        <div class="footer-logo">貓啡定律</div>
+        <ul class="clearfix">
+            <li><a href="./hug.html">抱毛回窩</a></li>
+            <li><a href="./menu.html">菜單</a></li>
+            <li><a href="./member.html">成員介紹</a></li>
+            <li><a href="./tellme.html">領養表單</a></li>
+
+        </ul>
+        <br>
+        <div class="footer-line"></div>
+        <br>
+        <p class="text-center" style="margin: auto;"><a href="#" class="btn"
+                style="margin: 10px;">線上訂位</a><span>和貓主子一起的空間享用美食</span></p>
+
+        <div class="copyright text-center" style="margin: auto;">copryright &copy; 此網站為練習使用，不做商業用途</div>
+    </footer>
+
+
+
+
+    <script>
+        function openMember(evt, catName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(catName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+
+
+</body>
+
+</html>
